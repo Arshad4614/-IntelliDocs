@@ -1,0 +1,33 @@
+fastapi==0.110.0
+uvicorn==0.29.0
+pymongo==4.6.1
+python-dotenv==1.0.1
+passlib[bcrypt]==1.7.4
+PyMuPDF==1.23.8
+chromadb==0.4.22
+sentence-transformers==2.2.2
+# --- FastAPI + Server ---
+fastapi
+uvicorn[standard]
+
+# --- LangChain Ecosystem ---
+langchain
+langchain-community
+langchain-text-splitters
+faiss-cpu   # vector database (CPU version)
+
+# --- Embeddings & Transformers ---
+sentence-transformers
+transformers
+torch
+scikit-learn
+
+# --- Utils ---
+python-dotenv
+pydantic
+requests
+
+# --- Optional (PDF/Text loaders etc.) ---
+pypdf
+unstructured
+tiktoken

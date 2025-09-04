@@ -1,0 +1,32 @@
+# ---- Virtual Environments ----
+venv/
+.env
+.env.local
+
+# ---- Python Cache ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ---- IDE / Editor Files ----
+.vscode/
+.idea/
+*.code-workspace
+
+# ---- OS Files ----
+.DS_Store
+Thumbs.db
+
+# ---- Logs ----
+*.log
+
+# ---- Streamlit cache ----
+.streamlit/cache/
+frontend/.streamlit/cache/
+
+# ---- FAISS/Embeddings/Uploads ----
+*.faiss
+*.pkl
+uploads/
+data/

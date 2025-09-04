@@ -1,0 +1,19 @@
+# Core framework
+streamlit>=1.28.0
+pandas>=1.5.0
+numpy>=1.24.0
+
+# API + requests
+requests>=2.31.0
+httpx>=0.24.0
+
+# Auth + crypto (for password hashing if needed client-side, optional)
+bcrypt>=4.0.0
+cryptography>=41.0.0
+
+# Document processing on frontend (only for file type checks, not embedding)
+PyPDF2>=3.0.0
+python-docx>=0.8.11
+
+# Misc
+python-dotenv>=1.0.0
